@@ -1,0 +1,74 @@
+/* TemplatesList.css */
+
+.templates-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .tabs button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tabs button.active {
+    background-color: #0056b3;
+    cursor: default;
+  }
+  
+  .template-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .template-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .template-card p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+  
+  .create-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .create-button:hover {
+    background-color: #218838;
+  }
+  
